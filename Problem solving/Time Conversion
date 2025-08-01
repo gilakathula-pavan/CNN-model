@@ -1,0 +1,11 @@
+class Main{
+    public static void main(String[] args){
+        int totalSeconds = 3672;
+        int hours = totalSeconds / 3600;
+        totalSeconds %= 3600;
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+
+        System.out.println("Hours:" + hours + " Minutes:" + minutes + " Seconds:"+seconds);
+    }
+}
