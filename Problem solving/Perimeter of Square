@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter side:");
+        int Side = sc.nextInt();
+        
+        int side = 4*Side;
+        
+        System.out.println("Area of square:" + side);
+    }
+}
