@@ -1,0 +1,11 @@
+class Main{
+    public static void main(String[] args){
+        double maths = 85;
+        double physics = 90;
+        double chemistry = 88;
+        
+        double AverageMarks = (maths+physics+chemistry)/3;
+        
+        System.out.println("sum of marks in 3 subjects:" + AverageMarks);
+    }
+}
